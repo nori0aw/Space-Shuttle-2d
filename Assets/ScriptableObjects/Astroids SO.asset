@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a64c3848d2d30ba41bd9f495fa4b4337, type: 3}
+  m_Name: Astroids SO
+  m_EditorClassIdentifier: 
+  Astroids:
+  - {fileID: 8337127014614283391, guid: aa56cb6816fec204b82972cc4bb10904, type: 3}
+  - {fileID: 6601966406946854289, guid: 57249839bd2a4fb488fae699fdd5d713, type: 3}
+  - {fileID: 5582728527995273364, guid: 93961be234bbeec49b1dd976dcac645a, type: 3}
+  - {fileID: 6479956013055307462, guid: 0a81c56e99922574e9a1c799dfee8f49, type: 3}
+  - {fileID: 8115985115019628202, guid: 0b92b5ec412c6834e888c3452450ddbe, type: 3}
+  - {fileID: 8387398840225575636, guid: 330001d416761d74a9d261f4f4a3f0e6, type: 3}
