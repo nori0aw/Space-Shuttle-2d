@@ -62,8 +62,12 @@ public class LevelSelectUI : MonoBehaviour
                 break;   
             } 
         }
-        TimeSpan time = TimeSpan.FromSeconds(lastBestTime);
-        bestScoreTxt.text = "Best Score: " + difficulty + " " + time.ToString(@"mm\:ss");
+
+        if (lastBestTime > 0)
+        {
+            TimeSpan time = TimeSpan.FromSeconds(lastBestTime);
+            bestScoreTxt.text = "Best Score: " + difficulty + " " + time.ToString(@"mm\:ss");
+        }
         /////////////////////////////////////////////////////////
         ///
 
